@@ -393,35 +393,6 @@ Potential production improvements:
 
 ---
 
-## Interview Summary
-
-A concise description of the project:
-
-> I built an AI-powered expense auditing proof of concept using Streamlit, Python, and the OpenAI vision API. The AI extracts structured information from receipt images, while a deterministic Python rule engine applies reimbursement policies. High-confidence cases can be automatically approved or rejected, while uncertain cases are routed to an Accounting dashboard for human review. The system also supports employee appeals, human corrections, reviewer notes, approval history, and JSON export.
-
----
-
-## Security
-
-The API key is stored locally in `.env`.
-
-The `.gitignore` file should include:
-
-```text
-.venv/
-.env
-__pycache__/
-*.pyc
-```
-
-Before pushing to GitHub, verify that the API key is not tracked:
-
-```bash
-git status
-```
-
----
-
 ## Future Improvements
 
 - Persistent SQL database
